@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity
+                android:label="@string/feature_login"
+                android:name=".feature.login.LoginActivity"/>
+        <activity
                 android:label=""
                 android:name=".register.RegisterActivity"/>
     </application>
