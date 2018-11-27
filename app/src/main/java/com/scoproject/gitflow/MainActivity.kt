@@ -8,6 +8,7 @@ import com.scoproject.gitflow.feature.login.LoginActivity
 import com.scoproject.gitflow.register.RegisterActivity
 
 class MainActivity : AppCompatActivity() {
+    lateinit var test: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
