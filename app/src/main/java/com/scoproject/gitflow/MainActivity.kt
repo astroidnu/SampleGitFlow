@@ -1,8 +1,8 @@
 package com.scoproject.gitflow
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import com.scoproject.gitflow.feature.login.LoginActivity
 import com.scoproject.gitflow.register.RegisterActivity
@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnRegister.setOnClickListener {
+
             val intentRegister = Intent(this, RegisterActivity::class.java)
             startActivity(intentRegister)
         }
